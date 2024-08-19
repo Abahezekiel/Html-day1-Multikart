@@ -1,0 +1,503 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  padding: 15px 0;
+}
+.nav {
+  margin: auto;
+  /* background-color: orange; */
+  width: 70%;
+  height: 50px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.nav_link {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+.nav_link li {
+list-style-type: none;
+text-transform: uppercase;
+cursor: pointer;
+}
+.nav_link li:hover{
+  color: red;
+}
+.nav_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90px;
+}
+.icons {
+  width: 20px;
+}
+.main {
+  position: relative;
+  top: 80px;
+
+}
+.hero_img {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url('../Images/heroimage.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.hero_img_content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero_img_content p {
+  margin: 0;
+  color: grey;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+}
+.hero_img_content h2{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding: 10px 0
+}
+.hero_img_content button{
+background-color: red;
+border: none;
+color: white;
+padding: 10px;
+font-weight: 800;
+cursor: pointer;
+}
+.container {
+  margin: 50px auto;
+  width: 70%;
+  /* background-color: orange; */
+
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.bg_1{
+  background-image: url(../Images/bg_1.jpg);
+/* background-color: green; */
+height: 305px;
+background-repeat: no-repeat;
+align-items: center;
+justify-content: end;
+display: flex;
+background-position: center;
+background-size: contain;
+
+}
+.bg_2{
+  background-image: url(../Images/bg_2.jpg);
+  /* background-color: orangered; */
+  height: 305px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  justify-content: end;
+  background-size: contain;
+}
+.grid_text_holder{
+  padding: 0 10px;
+  text-align: center;
+}
+.grid_text_holder p{
+  margin: 0;
+  color: red;
+  text-transform: capitalize;
+}
+.grid_text_holder h3{
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 3rem;
+  
+}
+
+.spec{
+  text-align: center;
+  background-color: green;
+}
+.spec p {
+  color: red;
+  margin: 0;
+  letter-spacing: 5px;
+  font-size: 1.1rem;
+}
+}
+.spec h3 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-4{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+
+.bg_3{
+  background-image: url(../Images/grid1.jpg);
+  background-size: cover;
+  height: 350px;
+}
+.bg_4{
+  background-image: url(../Images/grid2.jpg);
+  background-size: cover;height: 350px;
+}
+.bg_5{
+  background-image: url(../Images/grid3.jpg);
+  background-size: cover;height: 350px;
+}
+.bg_6{
+  background-image: url(../Images/grid4.jpg);
+  background-size: cover;height: 350px;
+}
+
+.round {
+  width: 30px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  /* display: flex; */
+}
+
+.yellow{
+  background-color: yellow;
+  
+}
+.pink{
+  background-color: pink;
+}
+.colors{
+  display: flex;
+  width: 30%;
+  gap: 5px;
+  height: 30px;
+}
+
+.section{
+  width: 70%;
+  margin: 50px auto;
+  background-color: red;
+}
+.section_img {
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-image: url('../Images/sec1.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+}
+.section_img_content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_img_content h1 {
+  margin: 0;
+  color: red;
+  letter-spacing: 5px;
+  font-size: 80px;
+}
+.section_img_content h4{
+  margin: 0;
+  font-size: 2.5rem;
+  padding: 10px 0
+}
+
+.section_one {
+  padding: 20px;
+  text-align: center;
+}
+.header {
+  margin-bottom: 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+.header p {
+  margin: 5px 0;
+  font-size: 18px;
+  color: red;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.menu a {
+  margin: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+.menu a.active {
+  color: red;
+}
+.Features {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  /* max-width: 100%; */
+}
+
+.feature {
+  display: flex;
+  text-align: center;
+  /* flex: 1; */
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+.feature-text{
+  display: block;
+}
+.feature:last-child {
+  border-right: none;
+}
+
+.feature img {
+  margin-right: 12px;
+  width: 60px;
+  height: 60px;
+ transition: all 0.5 ease;
+}
+
+.feature h3 {
+  margin: 10px 0;
+  color: #333;line-height: 1px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.header_top {
+  margin-bottom: 20px;
+  text-align: center;
+  /* background-color: #f5f5f5; */
+}
+.header_top p {
+  margin: 0;
+  font-size: 18px;
+  color: red;
+  
+}
+.header_top h1 {
+  margin: 5px 0;
+  font-size: 36px;
+}
+.blogs {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.blog {
+  width: 30%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog img {
+  width: 100%;
+  height: auto;
+}
+.blog .date {
+  font-size: 18px;
+  color: red;
+  margin: 10px 0;
+}
+.blog .title {
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.blog .author {
+  font-size: 14px;
+  color: #666;
+}
+
+.platinum{
+  /* background-color: red; */
+  /* display: grid; */
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.footer {
+    background: #f9f9f9;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.newsletter-text {
+    flex: 1;
+}
+
+.newsletter h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.newsletter p {
+    color: #777;
+    margin-top: 10px;
+}
+
+.newsletter-subscribe {
+    display: flex;
+}
+
+.newsletter-subscribe input {
+    padding: 10px;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter-subscribe button {
+    padding: 10px 20px;
+    background: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.newsletter-subscribe button:hover {
+    background: #e04343;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    color: #777;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.footer-section ul li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-section ul li a {
+    color: #777;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    text-align: center;
+    color: #777;
+}
+/* .star-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.star {
+    font-size: 1em;
+    color: gold;
+    margin: 0 1px;
+}
+
+
